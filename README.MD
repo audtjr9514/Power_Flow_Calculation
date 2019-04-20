@@ -6,8 +6,11 @@
 
 
 
-##### testing
+##### testing2
 
-- 모선 데이터의 3.dat의 내용을 파일스트림으로 받아 3x9 / 3x6의 행렬 (2차원 배열)로 나눠야합니다.
+- 기존에 있던 Data 파일(.dat)을 불러와 LineData와 BusData로 분리하고
+
+  LineData를 이용하여 YBUS 행렬을 만드는 과정입니다.
 
   
+
