@@ -20,7 +20,7 @@ namespace project
         static void Main(string[] args)
         {
             Console.Write("데이터를 골라주세요 : ");
-            string filePath = Console.ReadLine();
+            string filePath = "C:\\Users\\myoun\\Desktop\\조류 계산\\Power_Calculation\\" + Console.ReadLine();
 
             int n = 0, s = 0, i = 0, k = 0, j = 0;
             double[] x1 = new double[MAT_A_LOW]; // 행렬A을 한 줄 담기 위한 임시 배열
